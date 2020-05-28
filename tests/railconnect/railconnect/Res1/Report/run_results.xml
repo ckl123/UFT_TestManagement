@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>t1.Set</Name>
+    <Description>"clala"</Description>
+    <StartTime>2020-05-29 12:25:29</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+          <Object>
+            <Type>SwfEdit</Type>
+            <Name><![CDATA[t1]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["clala"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[t1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3371f59999084ec0acbff781f58e14cd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RAIL DUNIA</Name>
+    <Description>SwfWindow</Description>
+    <StartTime>2020-05-29 12:25:29</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SwfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[Form1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[RAIL DUNIA]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>45844d75239d4d82a259a39319a27302</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>t1</Name>
+    <ErrorText>Cannot find the "t1" object's parent "RAIL DUNIA" (class SwfWindow).
+Verify that parent properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;find&amp;nbsp;the&amp;nbsp;"t1"&amp;nbsp;object's&amp;nbsp;parent&amp;nbsp;"RAIL&amp;nbsp;DUNIA"&amp;nbsp;(class&amp;nbsp;SwfWindow).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;parent&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;swfname = Form1&lt;br&gt;regexpwndtitle = RAIL DUNIA&lt;br&gt;is owned window = 0&lt;br&gt;is child window = 0&lt;br&gt;</Description>
+    <StartTime>2020-05-29 12:25:29</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[SwfWindow("RAIL DUNIA").SwfEdit("t1").Set "clala"]]></Scripts>
+          <LineNo><![CDATA[1]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+          <Object>
+            <Type>SwfEdit</Type>
+            <Name><![CDATA[t1]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;find&nbsp;the&nbsp;"t1"&nbsp;object's&nbsp;parent&nbsp;"RAIL&nbsp;DUNIA"&nbsp;(class&nbsp;SwfWindow).<br/>Verify&nbsp;that&nbsp;parent&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[t1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3371f59999084ec0acbff781f58e14cd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d175f52e-367d-4aad-89e2-9e7112a41a4b.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>t2.SetSecure</Name>
+    <Description>"5ed0b085b47d4643ef67dabe719b827c"</Description>
+    <StartTime>2020-05-29 12:25:55</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+          <Object>
+            <Type>SwfEdit</Type>
+            <Name><![CDATA[t2]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["5ed0b085b47d4643ef67dabe719b827c"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[t2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3371f59999084ec0acbff781f58e14cd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RAIL DUNIA</Name>
+    <Description>SwfWindow</Description>
+    <StartTime>2020-05-29 12:25:29</StartTime>
+    <Duration>26</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SwfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[Form1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[RAIL DUNIA]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>45844d75239d4d82a259a39319a27302</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>t2</Name>
+    <ErrorText>Cannot find the "t2" object's parent "RAIL DUNIA" (class SwfWindow).
+Verify that parent properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;find&amp;nbsp;the&amp;nbsp;"t2"&amp;nbsp;object's&amp;nbsp;parent&amp;nbsp;"RAIL&amp;nbsp;DUNIA"&amp;nbsp;(class&amp;nbsp;SwfWindow).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;parent&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;swfname = Form1&lt;br&gt;regexpwndtitle = RAIL DUNIA&lt;br&gt;is owned window = 0&lt;br&gt;is child window = 0&lt;br&gt;</Description>
+    <StartTime>2020-05-29 12:25:55</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[SwfWindow("RAIL DUNIA").SwfEdit("t2").SetSecure "5ed0b085b47d4643ef67dabe719b827c"]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+          <Object>
+            <Type>SwfEdit</Type>
+            <Name><![CDATA[t2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;find&nbsp;the&nbsp;"t2"&nbsp;object's&nbsp;parent&nbsp;"RAIL&nbsp;DUNIA"&nbsp;(class&nbsp;SwfWindow).<br/>Verify&nbsp;that&nbsp;parent&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[t2]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>3371f59999084ec0acbff781f58e14cd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bea50301-30ee-44e2-bb9b-28cfeddc2232.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Login.Click</Name>
+    <Description />
+    <StartTime>2020-05-29 12:26:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+          <Object>
+            <Type>SwfButton</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[button1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5ea67367f03547b1a490e37e7e2a672b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Login</Name>
+    <Description>Cannot&amp;nbsp;find&amp;nbsp;the&amp;nbsp;"Login"&amp;nbsp;object's&amp;nbsp;parent&amp;nbsp;"RAIL&amp;nbsp;DUNIA"&amp;nbsp;(class&amp;nbsp;SwfWindow).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;parent&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;swfname = Form1&lt;br&gt;regexpwndtitle = RAIL DUNIA&lt;br&gt;is owned window = 0&lt;br&gt;is child window = 0&lt;br&gt;</Description>
+    <StartTime>2020-05-29 12:26:24</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+          <Object>
+            <Type>SwfButton</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;find&nbsp;the&nbsp;"Login"&nbsp;object's&nbsp;parent&nbsp;"RAIL&nbsp;DUNIA"&nbsp;(class&nbsp;SwfWindow).<br/>Verify&nbsp;that&nbsp;parent&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[button1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5ea67367f03547b1a490e37e7e2a672b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-05-29 12:26:24</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>8a42880a6a6f4ad8a4fc681163aa618b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>RAIL DUNIA</Name>
+    <Description>SwfWindow</Description>
+    <StartTime>2020-05-29 12:25:55</StartTime>
+    <Duration>29</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SwfWindow</Type>
+            <Name><![CDATA[RAIL DUNIA]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SwfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[swfname]]></Name>
+            <Value><![CDATA[Form1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[RAIL DUNIA]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>45844d75239d4d82a259a39319a27302</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-05-29 12:25:08</StartTime>
+    <Duration>76</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>3a1177862caf4b06bf174e4943da92f6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-05-29 12:25:07</StartTime>
+    <Duration>77</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>fbf16cf141fd41498af478837494cb4a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>D:\FINAL YEAR PROJECT+DATABASE\CSC FOR IRCTC\CSC FOR IRCTC\bin\Debug\CSC FOR IRCTC.exe</Name>
+        <Path>D:\FINAL YEAR PROJECT+DATABASE\CSC FOR IRCTC\CSC FOR IRCTC\bin\Debug</Path>
+        <Version />
+        <AdditionalInfos>
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-05-29 12:26:25</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e8c8d4459e22458d8f6386058f86598d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>railconnect</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-05-29 12:25:03</StartTime>
+    <Duration>82</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ce8c0df71178440e9a2dc06bf9883c9c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>Chanchal Lala</User>
+      <CpuInfo>Intel(R) Pentium(R) CPU B980 @ 2.40GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>6028</TotalMemory>
+      <HostName>LOCAL-HOST</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2020-05-29 12:25:03</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

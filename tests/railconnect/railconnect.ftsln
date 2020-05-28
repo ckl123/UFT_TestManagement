@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_14
+Project("") = "railconnect", "railconnect\Test.tsp", "88F79AD7-A662-470D-BAF2-286AD6E235BD"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Chanchal Lala\Documents\Unified Functional Testing\UFT_TestManagement\tests\railconnect\railconnect\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		88F79AD7-A662-470D-BAF2-286AD6E235BD.Debug|Any CPU.Build.0 = Debug|Any CPU
+		88F79AD7-A662-470D-BAF2-286AD6E235BD.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		88F79AD7-A662-470D-BAF2-286AD6E235BD.Release|Any CPU.Build.0 = Release|Any CPU
+		88F79AD7-A662-470D-BAF2-286AD6E235BD.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+Goto Windows > Control Pannel > All Control Pannel >Credential Management 
+
+Modify GITHUB credential using github userid and token not with password
+
+cd cd C:/Users/Chanchal\ Lala/Documents/Unified\ Functional\ Testing
+git config credential.helper store
+git push --all
+Enter username for https://github.com: <paste or write your username if asked>
+Enter password... <paste or write your tokem if asked>
+
+
+Commit Push:
+
+UFT recorded script
+
+Window("MINGW64:/").Type "cd C:/Users/Chanchal\ Lala/Documents/Unified\ Functional\ Testing"
+Window("MINGW64:/").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "git pull origin master"
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "git add --all"
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "git status"
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "git add --all"
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "git commit -m """"" +  micLeft
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "pushed successfully"
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type "git push origin master"
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Type  micReturn
+Window("MINGW64:/c/Users/Chanchal Lala/Documents/Unified Functional Testing").Maximize
+

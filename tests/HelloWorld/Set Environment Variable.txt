@@ -1,0 +1,8 @@
+Create JAVA_HOME: JDK\BIN PATH ; JRE\BIN PATH
+Create CLASSPATH: JDK\lib; JRE\lib
+
+Goto Path and add %JAVA_HOME% and %CLASSPATH% in rows
+Set both variables on top priority in the list
+
+Compile: javac MyProgram.java
+Run: java MyProgram
